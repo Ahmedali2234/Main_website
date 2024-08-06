@@ -57,8 +57,9 @@ const Hero = () => {
           ))} 
         </div>
       </div>
-      <div className="absolute text-[70px] font-histeagin pt-[500px] ">
-        <h6 className="text-slate-200 font-histeagin ">WE SEE LOVE FROM A DIFFERENT ANGLE</h6>
+      <div className="absolute   pt-[500px] ">
+        <h6 className="text-slate-200 text-[70px] font-histeagin ">WE SEE LOVE FROM A DIFFERENT ANGLE</h6>
+        <p className="uppercase text-[20px]  text-white font">Cosmo: pakistan & UK wedding PHOTOGRAPHY and cinematography </p>
       </div>
 
 
