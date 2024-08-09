@@ -8,7 +8,7 @@ const Hero = () => {
   const images = [
     { src: '/1.png', alt: 'Image 1', width: 1920  , height: 1280 },
     { src: '/2.png', alt: 'Image 2', width: 1920  , height: 1280 },
-    { src: '/3.png', alt: 'Image 3', width: 1920  , height: 1280 },
+    { src: '/3.png', alt: 'Image 3', width: 1920  , height: 1280  },
     // { src: '/4.png', alt: 'Image 3', width: 1920  , height: 1280 },
     { src: '/5.png', alt: 'Image 3', width: 1920  , height: 1280 },
     { src: '/6.png', alt: 'Image 3', width: 1920  , height: 1280 },
@@ -59,7 +59,7 @@ const Hero = () => {
       </div>
       <div className="absolute   pt-[500px] ">
         <h6 className="text-slate-200 text-[70px] font-histeagin ">WE SEE LOVE FROM A DIFFERENT ANGLE</h6>
-        <p className="uppercase text-[20px]  text-white font">Cosmo: pakistan & UK wedding PHOTOGRAPHY and cinematography </p>
+        <p className="uppercase text-[12px] tracking-[.25em] text-white font text-center font-light">Cosmo: pakistan & UK wedding PHOTOGRAPHY and cinematography </p>
       </div>
 
 

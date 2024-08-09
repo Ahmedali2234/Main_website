@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='absolute top-0 left-0 w-full bg-transparent z-20 pointer-events-auto border-0 font-inherit m-0 p-0 align-baseline border-solid box-border h-[150px]  bg-origin-border bg-gradient-to-t from-transparent to-black'>
+    <div className='fixed  top-0 left-0 w-full bg-transparent z-20 pointer-events-auto border-0 font-inherit m-0 p-0 align-baseline border-solid box-border h-[150px]  bg-origin-border bg-gradient-to-t from-transparent to-black'>
         <div className='flex justify-between items-center '>
            <div className='flex pl-6'>
            <img src="/logo.png" alt="Cosmo photography" width={100} height={100} />
