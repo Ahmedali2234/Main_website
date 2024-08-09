@@ -3,6 +3,8 @@ import React from 'react'
 import Navbar from './component/Navbar'
 import P_C from './component/P-C'
 import PICTURE from './component/PICTURE'
+import TestimonialsSlider from './component/packages'
+
 
 export const Home = () => {
   return (
@@ -11,6 +13,7 @@ export const Home = () => {
       <Hero/>
       <P_C/>
       <PICTURE/>
+      <TestimonialsSlider/>
     </div>
   )
 }
