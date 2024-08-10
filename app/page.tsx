@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from './component/Navbar'
 import P_C from './component/P-C'
 import PICTURE from './component/PICTURE'
-import TestimonialsSlider from './component/packages'
+import TestimonialsSlider from './component/Packages'
 
 
 export const Home = () => {
