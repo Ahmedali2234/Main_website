@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from './component/Navbar'
 import P_C from './component/P-C'
 import PICTURE from './component/PICTURE'
-import TestimonialsSlider from './component/Packages'
+import Packages from './component/Packages'
 
 
 export const Home = () => {
@@ -13,7 +13,7 @@ export const Home = () => {
       <Hero/>
       <P_C/>
       <PICTURE/>
-      <TestimonialsSlider/>
+      <Packages/>
     </div>
   )
 }

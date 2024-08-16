@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from "react";
 
-const TestimonialsSlider: React.FC = () => {
+const Packages: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const testimonials = [
@@ -36,8 +36,8 @@ const TestimonialsSlider: React.FC = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-100">
-      <div className="relative w-full max-w-screen-lg mx-auto  overflow-x-hidden">
+    <section className=" ">
+      <div className="relative mx-4 md:w-[85%] md:mt-12 pb-3 md:pb-0 md:mx-auto overflow-x-hidden">
         {/* Slider Container */}
         <div
           className="flex transition-transform duration-500"
@@ -53,7 +53,7 @@ const TestimonialsSlider: React.FC = () => {
               <img
                 src={testimonial.img}
                 alt={testimonial.alt}
-                className="w-full h-auto object-cover rounded-lg"
+                className="w-full md:h-[85%] object-cover rounded-lg"
               />
             </div>
           ))}
@@ -91,4 +91,4 @@ const TestimonialsSlider: React.FC = () => {
   );
 };
 
-export default TestimonialsSlider;
+export default Packages;
