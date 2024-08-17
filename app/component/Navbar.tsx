@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,9 +49,9 @@ const Navbar = () => {
         {/* Navigation Links (Hidden on Mobile) */}
         <div className="hidden md:flex">
           <ul className="flex gap-4 md:gap-10 text-white cursor-pointer">
-            <li>HOME</li>
+            <Link href={'/'}>HOME</Link>
             <li>WEDDING</li>
-            <li>PHOTOS</li>
+            <Link href={'/album'}>ALBUMS</Link>
             <li>PRICING</li>
             <li>CONTACT</li>
           </ul>

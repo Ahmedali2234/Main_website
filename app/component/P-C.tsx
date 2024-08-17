@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -15,32 +16,38 @@ const About = () => {
         </div>
       </div>
 
+      {/* Photography Section */}
       <div className='relative w-full h-full mt-4'>
-        <img src="/Pcover.png" alt="wedding" className='opacity-80 w-full h-[200px] md:h-auto object-cover' />
-        <div className='absolute inset-0 bg-gradient-to-t from-transparent to-black h-[100px] md:h-[150px]'>
-          <div className='text-slate-50 pt-16 md:pt-48'>
-            <p className='text-[10px] md:text-[18px] font-thin pl-4 md:pl-[100px] tracking-[.25em]'>
-              VIEW OUR
-            </p>
-            <h6 className="font-histeagin text-[30px] md:text-[100px] pl-4 md:pl-[100px] leading-tight md:leading-none">
-              PHOTOGRAPHY
-            </h6>
-          </div>
-        </div>
+        <Link href="/album">
+            <img src="/Pcover.png" alt="wedding" className='opacity-80 w-full h-[200px] md:h-auto object-cover' />
+            <div className='absolute inset-0 bg-gradient-to-t from-transparent to-black h-[100px] md:h-[150px]'>
+              <div className='text-slate-50 pt-16 md:pt-48'>
+                <p className='text-[10px] md:text-[18px] font-thin pl-4 md:pl-[100px] tracking-[.25em]'>
+                  VIEW OUR
+                </p>
+                <h6 className="font-histeagin text-[30px] md:text-[100px] pl-4 md:pl-[100px] leading-tight md:leading-none">
+                  PHOTOGRAPHY
+                </h6>
+              </div>
+            </div>
+        </Link>
       </div>
 
+      {/* Cinematography Section */}
       <div className='relative w-full h-full mt-5'>
-        <img src="/Ccover.png" alt="wedding" className='opacity-80 w-full h-[200px] md:h-auto object-cover' />
-        <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black h-[200px] md:h-full'>
-          <div className='text-slate-50 pt-16 md:pt-48 text-end'>
-            <p className='text-[10px] md:text-[18px] font-thin pr-4 md:pr-[70px] tracking-[.25em]'>
-              VIEW OUR
-            </p>
-            <h6 className="font-histeagin text-[30px] md:text-[95px] pr-4 md:pr-[70px] leading-tight md:leading-none uppercase">
-              CINEMATOGRAPHY
-            </h6>
-          </div>
-        </div>
+        <Link href="/cinematography">
+            <img src="/Ccover.png" alt="wedding" className='opacity-80 w-full h-[200px] md:h-auto object-cover' />
+            <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black h-[200px] md:h-full'>
+              <div className='text-slate-50 pt-16 md:pt-48 text-end'>
+                <p className='text-[10px] md:text-[18px] font-thin pr-4 md:pr-[70px] tracking-[.25em]'>
+                  VIEW OUR
+                </p>
+                <h6 className="font-histeagin text-[30px] md:text-[95px] pr-4 md:pr-[70px] leading-tight md:leading-none uppercase">
+                  CINEMATOGRAPHY
+                </h6>
+              </div>
+            </div>
+        </Link>
       </div>
     </div>
   );
