@@ -82,7 +82,7 @@ const Navbar = () => {
           <ul className="flex flex-col gap-6 text-white">
             <li onClick={toggleDrawer}>HOME</li>
             <li onClick={toggleDrawer}>WEDDING</li>
-            <li onClick={toggleDrawer}>PHOTOS</li>
+            <Link href={'/album'} onClick={toggleDrawer}>ALBUMS</Link>
             <li onClick={toggleDrawer}>PRICING</li>
             <li onClick={toggleDrawer}>CONTACT</li>
           </ul>

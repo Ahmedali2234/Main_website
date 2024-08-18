@@ -4,7 +4,6 @@ import Navbar from './component/Navbar'
 import P_C from './component/P-C'
 import PICTURE from './component/PICTURE'
 import Packages from './component/Packages'
-import Albums from './album/page'
 
 
 export const Home = () => {
@@ -14,8 +13,7 @@ export const Home = () => {
       <Hero/>
       <P_C/>
       <PICTURE/>
-      <Packages/>
-      <Albums/>
+      <Packages/>   
     </div>
   )
 }
