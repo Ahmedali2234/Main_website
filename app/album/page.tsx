@@ -12,7 +12,7 @@ export const Albums = () => {
           alt="wedding" 
           className='w-full h-[200px] md:h-auto object-cover' 
         />
-        <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black h-[200px] md:h-[580px]'>
+        <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black h-[200px] md:h-[580px] '>
           <div className='text-slate-50 pt-16 md:pt-48'>
             <p className='text-[10px] md:text-[18px] font-thin pl-4 md:pl-[100px] tracking-[.25em]'>
               VIEW OUR
