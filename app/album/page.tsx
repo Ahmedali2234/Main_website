@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const Albums = () => {
   return (
@@ -12,7 +13,7 @@ export const Albums = () => {
           alt="wedding" 
           className='w-full h-[200px] md:h-auto object-cover' 
         />
-        <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black h-[200px] md:h-[580px] '>
+        <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black h-[200px] md:h-[580px]'>
           <div className='text-slate-50 pt-16 md:pt-48'>
             <p className='text-[10px] md:text-[18px] font-thin pl-4 md:pl-[100px] tracking-[.25em]'>
               VIEW OUR
@@ -30,18 +31,20 @@ export const Albums = () => {
           </h3>
         </div>
         <div className='relative grid grid-cols-2 gap-2 sm:grid-cols-1 md:flex md:justify-center md:items-center cursor-pointer  sm:gap-4 '>
-          <div className='text-center'>
-            <Image 
-              src={'/mainpagepics/mp1.jpg'} 
-              alt='Zainab and Abubakar' 
-              height={201} 
-              width={270} 
-              className='rounded-2xl opacity-70 hover:opacity-100 duration-300' 
-            />
-            <h3 className='text-white uppercase hover:font-extrabold hover:tracking-[.25em] mt-2 text-sm md:text-base'>
-              Zainab + Abubakar
-            </h3>
-          </div>
+        <Link href="/ZainabAbubakar">
+            <div className='text-center'>
+              <Image
+                src={'/mainpagepics/mp1.jpg'}
+                alt='Zainab and Abubakar'
+                height={201}
+                width={270}
+                className='rounded-2xl opacity-70 hover:opacity-100 duration-300'
+              />
+              <h3 className='text-white uppercase hover:font-extrabold hover:tracking-[.25em] mt-2 text-sm md:text-base'>
+                Zainab + Abubakar
+              </h3>
+            </div>
+          </Link>
           <div className='text-center'>
             <Image 
               src={'/mainpagepics/mp2.jpg'} 
