@@ -31,6 +31,7 @@ export const Albums = () => {
           </h3>
         </div>
         <div className='relative grid grid-cols-2 gap-2 sm:grid-cols-1 md:flex md:justify-center md:items-center cursor-pointer  sm:gap-4 '>
+        
         <Link href="/ZainabAbubakar">
             <div className='text-center'>
               <Image
@@ -45,18 +46,22 @@ export const Albums = () => {
               </h3>
             </div>
           </Link>
+          
+          <Link href="/KomalAhad">
           <div className='text-center'>
             <Image 
-              src={'/mainpagepics/mp2.jpg'} 
+              src={'/albums/komalahad/26.jpg'} 
               alt='Zainab and Abubakar' 
               height={201} 
               width={270} 
-              className='rounded-2xl opacity-70 hover:opacity-100 duration-300' 
+              className='rounded-2xl opacity-70 hover:opacity-100 duration-300 aspect-[4/5] object-cover object-bottom' 
             />
             <h3 className='text-white uppercase hover:font-extrabold hover:tracking-[.25em] mt-2 text-sm md:text-base'>
-              Zainab + Abubakar
+              Komal + Ahad
             </h3>
           </div>
+          </Link>
+          
           <div className='text-center'>
             <Image 
               src={'/mainpagepics/mp3.jpg'} 
